@@ -31,7 +31,7 @@ public class RoadManager : MonoBehaviour
         {
             yield return new WaitForSeconds(4);
             time += Time.deltaTime;
-            TextTime.text = time.ToString("F2");
+            TextTime.text = time.ToString("F1");
 
         }
     }
